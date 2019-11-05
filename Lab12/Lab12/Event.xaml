@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:local="clr-namespace:Lab12;assembly=Lab12"
+             x:Class="Lab12.Event">
+    <ContentPage.Content>
+
+
+        <StackLayout>
+            <Entry Text="Hugo">
+                <Entry.Triggers>
+                    <EventTrigger Event="TextChanged">
+                      <!-- <local:NumericValidationLab12Action/> -->
+                    </EventTrigger>
+                </Entry.Triggers>
+            </Entry>
+
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
